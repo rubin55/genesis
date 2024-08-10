@@ -11,7 +11,7 @@ int main() {
   ind += bg.tileset->numTile;
   PAL_setPalette(PAL1, fg.palette->data, DMA);
   u16 bt1 = TILE_ATTR_FULL(PAL1, false, false, false, ind);
-  VDP_drawImageEx(BG_A, &fg, bt1, -50, 100, false, DMA);
+  VDP_drawImageEx(BG_A, &fg, bt1, 10, 10, false, DMA);
 
   while (true) {
     SYS_doVBlankProcess();
