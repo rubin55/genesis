@@ -46,3 +46,6 @@ cmake-build*/
 
 # Output
 out/
+
+# Resources are generated
+**/res/resources.h
