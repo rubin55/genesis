@@ -43,3 +43,6 @@
 build/
 cmake-build*/
 .ccls-cache/
+
+# Output
+out/

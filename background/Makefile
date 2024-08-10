@@ -1,2 +1,2 @@
-export GDK ?= /opt/toolchains/mars/m68k-elf
+export GDK ?= /opt/marsdev/m68k-elf
 include $(GDK)/makefile.gen

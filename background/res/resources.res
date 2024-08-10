@@ -1,1 +1,1 @@
-IMAGE moon "moon.bmp" 0
+IMAGE bg "bg.png" BEST ALL
