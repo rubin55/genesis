@@ -7,9 +7,9 @@
   "settings": {
     "makefile.launchConfigurations": [
       {
-        "cwd": "/home/rubin/Source/Rubin/genesis/background",
-        "binaryPath": "/usr/bin/make",
-        "binaryArgs": [ "run" ]
+        "cwd": "/home/rubin/Source/Rubin/genesis/background/out",
+        "binaryPath": "/home/rubin/Source/Rubin/genesis/background/out/run.sh",
+        "binaryArgs": []
       }
     ]
   }

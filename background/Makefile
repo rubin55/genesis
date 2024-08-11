@@ -1,5 +1,6 @@
 export GDK ?= /opt/marsdev/m68k-elf
 include $(GDK)/makefile.gen
 
-run: debug
-	blastem out/rom.bin
+out/run.sh: all
+	echo "blastem rom.bin" > out/run.sh
+	chmod +x out/run.sh
