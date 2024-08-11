@@ -1,0 +1,16 @@
+{
+	"folders": [
+    {
+      "path": "background"
+    }
+  ],
+  "settings": {
+    "makefile.launchConfigurations": [
+      {
+        "cwd": "/home/rubin/Source/Rubin/genesis/background",
+        "binaryPath": "/usr/bin/make",
+        "binaryArgs": [ "run" ]
+      }
+    ]
+  }
+}
