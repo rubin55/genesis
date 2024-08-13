@@ -47,5 +47,7 @@ cmake-build*/
 # Output
 out/
 
+# Clangd cache
+.cache/
 # Resources are generated
 **/res/resources.h
