@@ -35,6 +35,8 @@
 # Project files
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
 
 # Ctags
 .tags
